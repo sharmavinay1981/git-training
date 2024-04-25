@@ -1,6 +1,7 @@
 // Vamsee
-function add(a, b) {
-  return 0;
+function add(a,b){
+    return a+b;
+
 }
 
 // Mauli
