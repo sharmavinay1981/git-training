@@ -4,8 +4,8 @@ function add(a, b) {
 }
 
 // Mauli
-function add2(a, b) {
-  return 0;
+function add2(a,b){
+    return a+b;
 }
 
 // Pradyumn
