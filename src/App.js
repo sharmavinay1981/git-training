@@ -8,6 +8,9 @@ import Login from "./Components/Login";
 import Register from "./Components/Register";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import Terms from "./Components/Terms";
+import Privacy from "./Components/Privacy";
+
 
 function App() {
   return (
@@ -21,6 +24,10 @@ function App() {
           <Route path="services" element={<Services />} />
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
+          <Route path="terms" element={<Terms/>} />
+          <Route path="privacy" element={<Privacy/>} />
+          
+
         </Routes>
       </BrowserRouter>
       <Footer />
