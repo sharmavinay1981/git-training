@@ -18,6 +18,7 @@ export default function Header() {
           <Nav.Link href="/aboutus">About us</Nav.Link>
           <Nav.Link href="/services">Services</Nav.Link>
           <Nav.Link href="/contactus">Contact us</Nav.Link>
+          <Nav.Link href="/companies">Companies</Nav.Link>
         </Nav>
       </Container>
     </Navbar>

@@ -10,6 +10,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Terms from "./Components/Terms";
 import Privacy from "./Components/Privacy";
+import Companies from "./Components/Companies";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="contactus" element={<Contact />} />
           <Route path="aboutus" element={<Aboutus />} />
           <Route path="services" element={<Services />} />
+          <Route path="companies" element={<Companies/>} />
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
           <Route path="terms" element={<Terms/>} />
